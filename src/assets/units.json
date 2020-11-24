@@ -1,0 +1,12 @@
+{
+    "base": "inch",
+    "units": {
+        "millimetre": 0.0393701,
+        "centimetre": 0.393701,
+        "foot": 12,
+        "yard": 36,
+        "metre": 39.37,
+        "kilometre": 39370.1
+    },
+    "date": "2020-11-23"
+}
