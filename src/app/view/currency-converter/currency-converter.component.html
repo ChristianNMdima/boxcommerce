@@ -18,7 +18,7 @@
                             <div class="form-group">
                                 <mat-form-field appearance="outline" style="width: 64% !important; margin-right: 1px;">
                                     <mat-label>Value</mat-label>
-                                    <input type="number" matInput [(ngModel)]="valueA" (keyup)="setValue(valueA, 'A')">
+                                    <input type="number" matInput [(ngModel)]="valueA" (keyup)="setValue(valueA, 'A')" autocomplete="off">
                                 </mat-form-field>
 
                                 <mat-form-field appearance="outline" style="width: 35% !important;">
@@ -37,7 +37,7 @@
                             <div class="form-group">
                                 <mat-form-field appearance="outline" style="width: 64% !important; margin-right: 1px;">
                                     <mat-label>Value</mat-label>
-                                    <input matInput [(ngModel)]="valueB" (keyup)="setValue(valueB, 'B')">
+                                    <input matInput [(ngModel)]="valueB" (keyup)="setValue(valueB, 'B')" autocomplete="off">
                                 </mat-form-field>
                                 <mat-form-field appearance="outline" style="width: 35% !important;">
                                     <mat-label *ngIf="!loading">Currency</mat-label>
